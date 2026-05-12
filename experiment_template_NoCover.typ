@@ -17,7 +17,12 @@
 
 // 正文中文/英文字体与字号
 #set text(
-	font: ("Times New Roman", "Source Han Serif SC"), // 使用思源宋体替代宋体
+	font: (
+    "Times New Roman",
+    "SimSun", "Songti SC", "STSong",
+    "Noto Serif SC", "song", "serif",
+    "Source Han Serif SC"
+  ),
 	size: 12pt,
 	lang: "zh",
 )
