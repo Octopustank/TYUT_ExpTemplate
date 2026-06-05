@@ -213,6 +213,13 @@
 The quick brown fox jumps over the lazy dog
 ```
 
+== 插图示例
+
+#figure(
+  image("tyut.png", width: 50%),
+  caption: [Typst 自动编号"图 N"]
+)
+
 == 子章节标题
 
 道可道，非常道。名可名，非常名。无名，天地之始；有名，万物之母。故常无欲，以观其妙；常有欲，以观其徼。
