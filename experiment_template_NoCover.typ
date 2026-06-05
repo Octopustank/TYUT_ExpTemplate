@@ -16,6 +16,7 @@
 )
 
 // 正文中文/英文字体与字号
+// 配置可能字体进行兜底
 #set text(
 	font: (
     "Times New Roman",

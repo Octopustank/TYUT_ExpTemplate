@@ -24,6 +24,7 @@
 )
 
 // 正文中文/英文字体与字号
+// 配置可能字体进行兜底
 #set text(
 	font: (
     "Times New Roman",
@@ -106,6 +107,8 @@
 #v(3em)
 
 // 信息表格
+//    Notes: 此 #set text(size: 15pt) 必须在 #pad[...] 块作用域内。
+//    若移到块外，15pt 会跨过 #pagebreak() 污染正文
 #pad(left: 3em, right: 3em)[
   #set text(size: 15pt)
   #table(
