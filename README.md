@@ -14,8 +14,25 @@ TYUT实验报告的 Typst 模板
 
 ## 特性
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="./img/experiment_template_WithCover_page-0001.jpg" width="300"/>
+      <br>
+    </td>
+    <td align="center">
+      <img src="./img/experiment_template_WithCover_page-0002.jpg" width="300"/>
+      <br>
+    </td>
+    <td align="center">
+      <img src="./img/experiment_template_WithCover_page-0003.jpg" width="300"/>
+      <br>
+    </td>
+  </tr>
+</table>
+
 - **自动编号**：支持一、二、(1) 等级别的自动标题编号。
-- **样式统一**：预设了符合实验报告规范的字号、字体（思源宋体/Times New Roman）和缩进。
+- **样式统一**：预设了符合实验报告规范的字号、字体（宋体/Times New Roman）和缩进。
 - **代码美化**：Typst 支持代码高亮，让代码块展示更专业。
 - **易于使用**：只需修改顶部的变量定义，即可生成精美的 PDF 报告。
 
@@ -46,7 +63,7 @@ TYUT实验报告的 Typst 模板
 ## 依赖
 
 - **默认字体**：
-  - 中文：[思源宋体 (Source Han Serif SC)](https://github.com/adobe-fonts/source-han-serif/tree/release/)
+  - 中文：优先使用系统自带的宋体（Windows `SimSun` / macOS `Songti SC` / `STSong` 等），然后尝试使用[思源宋体 (Source Han Serif SC)](https://github.com/adobe-fonts/source-han-serif/tree/release/)
   - 英文：Times New Roman
   - 代码：[JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 - **校徽图片**：`tyut.png` (由封面版模板引用)
